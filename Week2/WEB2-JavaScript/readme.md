@@ -1,3 +1,3 @@
 WEB2-JavaScript Source Code
 
-<a href="https://yun-yeojun.github.io/Web_Study/Week1/WEB1-HTML%20&%20Internet/">website link</a>
+<a href="https://yun-yeojun.github.io/Web_Study/Week2/WEB2-JavaScript/">website link</a>
