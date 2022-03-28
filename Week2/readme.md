@@ -1,3 +1,3 @@
 Week2 Sourcecode
 
-<a href="Web2-JavaScript">Web2-Javascript</a>
+<a href="WEB2-JavaScript">WEB2-Javascript</a>
