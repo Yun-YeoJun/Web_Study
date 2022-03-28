@@ -4,30 +4,13 @@
   <title>WEB2 - JavaScript</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
   <input type="button" value="night" onclick="
-    var target = document.querySelector('body')
-    if(this.value === 'night'){
-      target.style.backgroundColor='black';
-      target.style.color='white';
-      document.querySelector('a').style.color='white';
-      var alist = document.querySelectorAll('a');
-      for (var i = 0; i < alist.length; i++) {
-        alist[i].style.color='#ffffff';
-      }
-      this.value = 'day';
-    } else {
-      target.style.backgroundColor='white';
-      target.style.color='black';
-      document.querySelector('a').style.color='black';
-      var alist = document.querySelectorAll('a');
-      for (var i = 0; i < alist.length; i++) {
-        alist[i].style.color='#000000';
-      }
-      this.value = 'night';
-    }
+    nightDayHandler(this);
   ">
   <div id='grid'>
   <ol>
